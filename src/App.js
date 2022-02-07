@@ -1,5 +1,5 @@
 import './App.css';
-import Footer from './components/FooterComponent/Footer';
+import FooterComponent from './components/FooterComponent';
 import HeaderComponent from './components/HeaderComponent';
 import SectionEightComponent from './components/SectionEight';
 import SectionFiveComponent from './components/SectionFive';
@@ -31,7 +31,7 @@ function App() {
 
       <SectionEightComponent />
 
-      <Footer />
+      <FooterComponent />
     </>
   );
 }

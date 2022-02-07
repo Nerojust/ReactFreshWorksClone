@@ -5,21 +5,23 @@
 }
 
 .Contacts {
-  justify-content: flex-start;
-
   display: flex;
-
   margin-top: 50px;
+  width: 70%;
+  justify-content: center;
 }
 .contactNav {
   list-style: square;
   background-color: #fff;
   color: #0b1320;
+  margin-right: 30px;
+  width: 15%;
 }
 .freshW {
   width: 90px;
   height: 20px;
 }
+
 .Fresh {
   display: flex;
   align-items: flex-start;
@@ -47,7 +49,7 @@
 .companyNavs {
   text-decoration: none;
   color: black;
-  font-size: 11px;
+  font-size: 12px;
   padding-top: 10px;
 }
 .Company > p {
@@ -77,11 +79,11 @@
 }
 .Icons {
   position: relative;
-  width: 50%;
+  width: 60%;
 }
 .Icons2 {
   position: relative;
-  width: 50%;
+  width: 60%;
 }
 .Icons2:hover .Overlay2 {
   opacity: 1;
@@ -173,15 +175,17 @@
 }
 .Icons5 {
   position: relative;
-  width: 50%;
+  width: 60%;
+  margin-left: -20px;
 }
 
 .iconsContainer {
   display: flex;
+  margin-top: 10px;
 }
 .iconsContainer2 {
   display: flex;
-
+  margin-top: 5px;
   justify-content: space-around;
 }
 

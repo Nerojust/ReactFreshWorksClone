@@ -1,15 +1,15 @@
 import React from 'react';
-import './FooterCss.css';
+import './index.css';
 
 const Footer = () => {
   return (
     <div className="Footer">
       <div className="leftFooter">
         <a className="footerNavs" href="#">
-          Terms of Service -
+        Terms of Service{' '}
         </a>
         <a className="footerNavs" href="#">
-          Privacy Notice -
+          - Privacy Notice -
         </a>
         <a className="footerNavs" href="#">
           Takedown Policy -
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       <div className="rightFooter">
-        <p>Copyright © Freshworks Inc. All Rights Reserved</p>
+        <p className="footerNavs">Copyright © Freshworks Inc. All Rights Reserved</p>
       </div>
     </div>
   );

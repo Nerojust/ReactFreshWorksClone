@@ -94,7 +94,7 @@ const PageEightComponent = () => {
           </a>
         </div>
         <div className="mainIconContainer">
-          <p>CONNECT WITH US</p>
+          <p className='companyName'>CONNECT WITH US</p>
           <div className="iconsContainer">
             <div className="Icons">
               <a href="#">
