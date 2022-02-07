@@ -1,0 +1,95 @@
+.pageOneBody {
+  height: 100%;
+  width: 100%;
+  background-color: #c499df;
+  /* background-image: url(./components/images/bgg.png); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.femalePicture {
+  height: 500px;
+  display: flex;
+  margin-top: 30px;
+  padding-right: 40px;
+}
+
+.pageOneHeader {
+  font-family: neue-haas-grotesk-display, Helvetica, sans-serif;
+  font-weight: bolder;
+  /* font-style: normal; */
+  font-size: 5rem;
+  line-height: 1;
+  margin: 10px 0;
+  color: #0b1320;
+  word-spacing: 4;
+}
+
+.pageOneParag {
+  font-family: neue-haas-grotesk-text, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #3b3f47;
+}
+.textPart {
+  margin-left: 240px;
+  margin-top: 100px;
+}
+
+.btnSection {
+  height: 150px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+.btn1 {
+  width: 181px;
+  padding: 13px;
+  border: 1px solid rgb(93, 53, 215);
+  background-color: rgb(93, 53, 215);
+  margin-right: 5px;
+  color: white;
+  border-radius: 3px;
+  font-family: neue-haas-grotesk-text, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.btn2 {
+  padding: 13px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  margin-left: 5px;
+  border-radius: 3px;
+  width: 181px;
+  font-family: neue-haas-grotesk-text, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.sBContainer {
+  /* height: 500px; */
+  display: block;
+  align-items: flex-end;
+  position: sticky;
+  bottom: 45px;
+  z-index: 34px;
+}
+
+.sideButton {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-self: flex-end;
+
+  font-family: neue-haas-grotesk-text, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+}

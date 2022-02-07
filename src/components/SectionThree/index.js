@@ -4,6 +4,7 @@ import icon2 from './../images/Icon2.PNG';
 import icon3 from './../images/Icon3.PNG';
 import icon4 from './../images/Icon4.PNG';
 import EastIcon from '@mui/icons-material/East';
+import './index.css'
 
 const PageThreeComponent = () => {
   return (
@@ -18,7 +19,7 @@ const PageThreeComponent = () => {
             and realize value from software throughout their journey.
           </p>
         </div>
-        
+
         <section class="iconSect">
           <div class="cards">
             <div>
@@ -53,7 +54,7 @@ const PageThreeComponent = () => {
               cases and affordable for organizations of all sizes.
             </p>
             <div className="cardRowStart">
-              <button class="btnIcon">See pricing</button>
+              <p class="btnIcon">See pricing</p>
               <EastIcon
                 style={{
                   alignItems: 'center',
@@ -76,7 +77,7 @@ const PageThreeComponent = () => {
               cases and affordable for organizations of all sizes.
             </p>
             <div className="cardRowStart">
-              <button class="btnIcon">See pricing</button>
+              <p class="btnIcon">See pricing</p>
               <EastIcon
                 style={{
                   alignItems: 'center',
@@ -100,7 +101,7 @@ const PageThreeComponent = () => {
               tangible results in no time.
             </p>
             <div className="cardRowStart">
-              <button class="btnIcon">Learn how</button>
+              <p class="btnIcon">Learn how</p>
               <EastIcon
                 style={{
                   alignItems: 'center',

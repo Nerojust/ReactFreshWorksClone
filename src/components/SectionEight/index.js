@@ -20,8 +20,8 @@ const PageEightComponent = () => {
         <div className="contactNav">
           <ul>
             <div className="Fresh">
-              <img src={Imagep} className="freshW" />
-              <p>freshworks</p>
+              <img src={"https://www.freshworks.com/static-assets/images/common/company/logos/logo-fworks-black.svg"} className="freshW" />
+             
             </div>
             <li>
               <a className="freshNav" href="#">
@@ -52,7 +52,7 @@ const PageEightComponent = () => {
         </div>
 
         <div className="Company">
-          <p>COMPANY</p>
+          <p className='companyName'>COMPANY</p>
           <a className="companyNavs" href="#">
             About
           </a>
@@ -131,9 +131,10 @@ const PageEightComponent = () => {
           </div>
         </div>
       </div>
+
       <div className="msgContact">
         <img src={Imagem} className="Msg" />
-        <p>CONTACT SALES</p>
+        <p className='contactSales'>CONTACT SALES</p>
       </div>
     </div>
   );

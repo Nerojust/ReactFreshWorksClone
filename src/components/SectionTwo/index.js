@@ -1,6 +1,7 @@
 import React from 'react';
 import NorthEastIcon from '@mui/icons-material/NorthEast';
 import captureImage from './../images/Capture.PNG';
+import './index.css';
 
 const PageTwoComponent = () => {
   return (

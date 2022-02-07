@@ -2,6 +2,7 @@ import React from 'react';
 import freshworks_blacklogo from '../images/Freshworks_blacklogo.png';
 import aFlag from '../images/Aflag.png';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import './index.css'
 
 const HeaderComponent = () => {
   return (
